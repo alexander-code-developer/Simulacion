@@ -1,0 +1,36 @@
+# Variables de entorno y claves secretas (Brevo, JWT, MongoDB)
+.env
+.env.*
+!.env.example
+server/.env
+client/.env
+
+# Dependencias de Node.js
+node_modules/
+server/node_modules/
+client/node_modules/
+
+# Archivos compilados y cachés de Vite / React
+dist/
+client/dist/
+.vite/
+*.local
+
+# Caché y entornos virtuales de Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Logs del sistema o servidores
+logs/
+*.log
+npm-debug.log*
+
+# Editores y Sistema Operativo (Windows / macOS)
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
